@@ -1,0 +1,117 @@
+.footer-container{
+  max-width: 1280px;
+  height: 604px;
+  margin-top: 64px;
+  background-color: #fbb900;
+}
+
+#rodape{
+  color: #ffffff;
+  display: grid;
+  grid-template-areas: 
+    "redes-sociais pagamento pagamento"
+    "redes-sociais sobre sobre";
+}
+.redes-sociais{
+  grid-area: redes-sociais;
+  height: 604px;
+  width: 489px;
+  border-right: 1px solid #ffffff;
+}
+.redes-sociais h4{
+  font-size: 1.5rem;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 48px;
+}
+.p1{
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #ffffff;
+  margin-left: 115px;
+  margin-top: 50px;
+}
+.p2{
+  text-align: center;
+  line-height: 1.3125rem;
+  color: #ffffff;
+  width: 35ch;
+  margin-top: 105px;
+  margin-left: 65px;
+  margin-bottom: 62px;
+}
+.pagamento{
+  grid-area: pagamento;
+  width: 791px;
+  height: 470px;
+}
+.pagamento ul{
+  display: flex;
+  gap: 40px;
+  margin-left: 56px;
+  margin-top: 56px;
+}
+.pagamento h4{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.pagamento p{
+  font-size: .875rem;
+  line-height: 1.3125rem;
+  margin-top: 20px;
+}
+#quem  {
+  margin-top: 10px;
+}
+#politica{
+  margin-top: 40px;
+}
+#devolucao{
+  margin-top: 70px;
+}
+#regras{
+  margin-top: 90px;
+}
+#fale{
+  margin-top: 10px;
+}
+#tel{
+  margin-top: 40px;
+}
+#email{
+  margin-top: 70px;
+}
+#trabalhe{
+  margin-top: 90px;
+}
+.formas{
+  margin-top: 105px;
+  margin-left: 56px;
+}
+.pgto2{
+  bottom: 50px;
+  position: relative;
+}
+.seguranca{
+  margin-left: 390px;
+  margin-bottom: 550px;
+  position: relative;
+  bottom: 207px;
+}
+
+.sobre{
+  grid-area: sobre;
+  height: 134px;
+  font-size: .75rem;
+  line-height: 18px;
+  border-top: 1px solid #ffffff;
+}
+.sobre p{
+  margin-left: 56px;
+  margin-top: 40px;
+}
+.sobre img{
+  margin-left: 470px;
+  position: relative;
+  top: -41px;
+}

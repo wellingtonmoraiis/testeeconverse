@@ -2,12 +2,12 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-left: 88px;
+  margin-left: 56px;
 }
 .blog-container h2 {
   margin-top: 80px;
   margin-bottom: 11px;
-  margin-left: 88px;
+  margin-left: 56px;
 }
 .blog-container img {
   margin: 0 auto;

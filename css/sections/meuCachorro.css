@@ -6,7 +6,7 @@
   color: #4d4d4d;
   font-size: 2rem;
   line-height: 3rem;
-  margin-left: 80px;
+  margin-left: 56px;
 }
 /* DIV LISTA */
 .btn-lista {
@@ -89,6 +89,7 @@
   border-color: transparent;
   margin-top: 150px;
   text-transform: uppercase;
+  margin-left: -10px;
 }
 /* TAG P */
 #descricao {

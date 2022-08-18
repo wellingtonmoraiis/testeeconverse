@@ -1,0 +1,45 @@
+.login-container{
+  max-width: 1280px;
+  margin-top: 80px;
+}
+.login-foto{
+  margin-left: 500px;
+}
+.tela-login{
+  width: 772px;
+  height: 346px;
+  border-radius: 20px;
+  background-color: #FEF6E7;
+  margin: 0 auto;
+  text-align: center;
+}
+.tela-login h3{
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #4D4D4D;
+}
+.tela-login input{
+  display: block;
+  margin: 0 auto;
+  width: 343px;
+  height: 48px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 14px 157px 13px 52px;
+  font-size: .875rem;
+  line-height: 1.3125rem;
+}
+
+.tela-login button{
+  width: 153px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #fbb900;
+  border: 1px solid #f0d075;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}

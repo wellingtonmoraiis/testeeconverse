@@ -8,7 +8,7 @@
   justify-content: space-around;
   height: 32px;
   border-bottom: 1px solid #f0f0f0;
-  width: 100%;
+  max-width: 100%;
 }
 .nav-1 ul{
   display: flex;
