@@ -1,56 +1,59 @@
-.blog-grid{
+.blog-grid {
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-left: 88px;
 }
-.blog-container h2{
+.blog-container h2 {
   margin-top: 80px;
   margin-bottom: 11px;
   margin-left: 88px;
 }
-.blog-container img{
+.blog-container img {
   margin: 0 auto;
 }
 
-.blog-grid img{
+.blog-grid img {
   border-radius: 20px 20px 0px 0px;
 }
-.text-container{
-  max-width: 1200px;
-  height: 200px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-left: 88px;
+.blog-text {
+  width: 277px;
+  height: 259px;
+  background-color: #fef6e7;
+  margin-left: 24px;
+  margin: 0 auto;
+  border-radius: 0px 0px 20px 20px;
 }
-
-.grid-text {
-  width: 275px;
-  height: 200px;
-  background-color: #FEF6E7;
-}
-.grid-text h3{
-  color: #4d4d4d;
+.blog-text h3 {
   font-size: 1.25rem;
   line-height: 30px;
+  color: #4d4d4d;
+  margin-left: 24px;
+  margin-top: 24px;
 }
-.grid-text p{
-  color: #9f9f9f;
-  font-size: .875rem;
+.blog-text p {
+  font-size: 0.875rem;
   line-height: 1.3125rem;
-
+  color: #9f9f9f;
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
-.grid-text a{
+.blog-text button {
   width: 153px;
   height: 48px;
-  background-color: #fbb900;
-  color: #ffffff;
-  border: 1px solid #F0D075;
   border-radius: 10px;
-  margin-top: 70px;
-  text-align: center;
+  background-color: #fbb900;
+  border: 1px solid #f0d075;
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-top: 90px;
   text-transform: uppercase;
-  display: block;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+.blog-bolinha {
+  margin-left: 25px;
+  margin-top: 32px;
 }

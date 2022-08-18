@@ -1,47 +1,47 @@
-.meuCachrro-container{
+.meuCachrro-container {
   max-width: 1280px;
   margin-top: 88px;
 }
-.meuCachrro-container h2{
+.meuCachrro-container h2 {
   color: #4d4d4d;
   font-size: 2rem;
   line-height: 3rem;
   margin-left: 80px;
 }
 /* DIV LISTA */
-.btn-lista{
+.btn-lista {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.btn-lista ul{
+.btn-lista ul {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-right: 131px;
 }
- /* BOTÕES*/
-#btn-lista{
+/* BOTÕES*/
+#btn-lista {
   max-width: 150px;
   height: 35px;
   border-radius: 6px;
   box-sizing: border-box;
-  font-size: .875rem;
+  font-size: 0.875rem;
   background-color: #ffffff;
-  color: #9F9F9F;
-  border-color: #E5E5E5;
+  color: #9f9f9f;
+  border-color: #e5e5e5;
   text-transform: uppercase;
   padding: 5px 8px;
   text-align: center;
   cursor: pointer;
 }
-#btn-lista-agitado{
+#btn-lista-agitado {
   max-width: 150px;
   height: 30px;
   border-radius: 6px;
   box-sizing: border-box;
-  font-size: .875rem;
-  background-color: #FBB900;
+  font-size: 0.875rem;
+  background-color: #fbb900;
   color: #ffffff;
   border-color: transparent;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 }
 
 /* SEGUNDA LISTA */
-#produtos-dog ul{
+#produtos-dog ul {
   width: 1100px;
   margin-left: 100px;
   margin-top: 24px;
@@ -77,66 +77,63 @@
   text-transform: uppercase;
   font-size: .875rem;
 }*/
-#produtos-dog p{
- margin-left: 3%;
+#produtos-dog p {
+  margin-left: 3%;
 }
-#produtos-dog button{
+#produtos-dog button {
   width: 220px;
   height: 48px;
   border-radius: 6px;
-  background-color: #FBB900;
+  background-color: #fbb900;
   color: #ffffff;
   border-color: transparent;
   margin-top: 150px;
+  text-transform: uppercase;
 }
 /* TAG P */
-#descricao{
+#descricao {
   color: #4d4d4d;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5rem;
   margin-bottom: 14px;
-  
 }
-#desconto{
-  color: #9F9F9F;
+#desconto {
+  color: #9f9f9f;
   font-size: 1rem;
   line-height: 1.5rem;
   text-decoration: line-through;
   margin-top: 55px;
   margin-bottom: 4px;
 }
-#desconto-2{
+#desconto-2 {
   color: #4d4d4d;
   font-size: 1.375rem;
   line-height: 2.0625rem;
   margin-top: 75px;
-  
 }
-#assinantes span{
-  color: #FBB900;
+#assinantes span {
+  color: #fbb900;
   font-size: 1rem;
   line-height: 1.5rem;
- 
 }
-#assinantes{
+#assinantes {
   color: #4d4d4d;
-  font-size: .75rem;
+  font-size: 0.75rem;
   line-height: 1.125rem;
   margin-top: 105px;
-  
 }
 /* VER TODOS */
-.verTodos{
+.verTodos {
   margin-top: 32px;
   text-align: center;
 }
-.verTodos img{
+.verTodos img {
   margin: 0 auto;
   margin-top: 16px;
 }
-.verTodos a{
+.verTodos a {
   text-decoration: underline;
-  color: #FBB900;
+  color: #fbb900;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
