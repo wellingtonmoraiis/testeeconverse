@@ -1,0 +1,92 @@
+.parceiros-container{
+  max-width: 1280px;
+  margin-top: 100px;
+}
+.parceiros-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 88px;
+  gap: 20px;
+}
+.parceiro-1{
+  position: relative;
+}
+.parceiro-1 img{
+  border-radius: 20px;
+}
+.bolinha{
+  margin-left: 228px;
+  margin-top: 24px;
+}
+.parceiro-1 h3, p{
+  position: absolute;
+}
+.parceiro-1 h3{
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: #ffffff;
+  top: 118px;
+  left: 40px;
+}
+.parceiro-1 p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  top: 178px;
+  left: 40px;
+}
+.parceiro-1 button{
+  width: 131px;
+  height: 48px;
+  background-color: #fbb900;
+  border: 1px solid #F0D075;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 52px;
+  left: 40px;
+  cursor: pointer;
+}
+.parceiro-2{
+  width: 630px;
+  height: 330px;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #FEF6E7;
+  background-image: url("../../imagens/cao-preto.png");
+  background-position: right 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.parceiro-2 img{
+  margin-left: 300px;
+}
+.parceiro-2 h3{
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #4d4d4d;
+  margin-top: 46px;
+  margin-left: 40px;
+}
+.parceiro-2 p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #9f9f9f;
+  margin-left: 40px;
+}
+.parceiro-2 button{
+  width: 156px;
+  height: 48px;
+  background-color: #fbb900;
+  border: 1px solid #F0D075;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  cursor: pointer;
+
+}

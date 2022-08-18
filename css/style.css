@@ -1,0 +1,9 @@
+@import "./global/global.css";
+@import "./header/header.css";
+@import "./main/main.css";
+/*SECTIONS*/
+@import "./sections/categoria.css";
+@import "./sections/meuCachorro.css";
+@import "./sections/marcas.css";
+@import "./sections/parceiros.css";
+@import "./sections/blog.css";

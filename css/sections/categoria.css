@@ -1,0 +1,30 @@
+.categoria-container{
+  background-color: #ffffff;
+  max-width: 1280px;
+  margin-top: 80px;
+}
+.categoria-img ul{
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  gap: 40px;
+}
+.categoria-img p{
+  margin-top: .5rem;
+  text-align: center;
+  color: #9f9f9f;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.categoria-img img{
+  border-radius: 10px;
+}
+.categoria-container h2{
+  color: #4d4d4d;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}

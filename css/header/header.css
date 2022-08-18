@@ -1,0 +1,104 @@
+.header-container{
+  max-width: 1280px;
+  border-radius: 0px 0px 10px 10px;
+}
+.nav-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 32px;
+  border-bottom: 1px solid #f0f0f0;
+  width: 100%;
+}
+.nav-1 ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.nav-1 span{
+  color: #fbb900;
+}
+.nav-1 a{
+  color: #9f9f9f;
+  font-size: .75rem;
+}
+
+#img-span{
+  display: inline-block;
+  margin-right: 13px;
+}
+
+
+.nav-2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 72px;
+  max-width: 1280px;
+}
+.nav-2 img{
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 56px;
+}
+#campoBusca{
+  top: 44px;
+  margin-left: 290px;
+  margin-right: 333px;
+  position: absolute;
+}
+#campoBusca input{
+  width: 657px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #FEF6E7;
+  border: none;
+  padding: 14px 437px 13px 24px;
+  font-size: .875rem;
+}
+#campoBusca img{
+  position: absolute;
+  top: 0;
+  left: 556px;
+}
+.nav-2 ul{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+}
+.nav-2 ul img{
+  width: 25px;
+}
+
+
+.nav-3{
+  height: 40px;
+  width: 1280px;
+  position: relative;
+}
+.nav-3 ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 54px;
+  margin-left: 56px;
+  gap: 40px;
+}
+.nav-3 img{
+  display: inline-block;
+  margin-right: 5px;
+  align-items: center;
+}
+.nav-3 a{
+  color: #9f9f9f;
+  text-transform: uppercase;
+  font-size: .75rem;
+}
+.nav-3 span{
+  color: #fbb900;
+}

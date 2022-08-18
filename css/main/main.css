@@ -1,0 +1,45 @@
+.main-container{
+  max-width: 1280px;
+}
+.main-img{
+  position: relative;
+}
+.main-text{
+  position: absolute;
+  top: 119px;
+  left: 144px;
+  right: 749px;
+}
+.main-text h1{
+  color: #ffffff;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+}
+#seta-esquerda{
+  position: absolute;
+  top: 117px;
+  left: -66px;
+}
+#seta-direita{
+  position: absolute;
+  top: 117px;
+  right: -694px;
+}
+#bolinha{
+  position: absolute;
+  top: 320px;
+  left: 460px;
+}
+#btn{
+  width: 131px;
+  height: 48px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #fbb900;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  margin-top: 24px;
+}

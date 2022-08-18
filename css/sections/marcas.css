@@ -1,0 +1,47 @@
+.marcas-container{
+  max-width: 1200px;
+  margin-top: 64px;
+}
+.marcas-lista{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.marcas-lista h2{
+  margin-left: 88px;
+  color: #4d4d4d;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.marcas-lista a{
+  text-decoration: underline;
+  color: #FBB900;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+/* MARCAS GRID */
+.marcas-grid{
+  max-width: 1200px;
+}
+.marcas-grid ul{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 32px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 88px;
+  gap: 15px;
+}
+.marcas-grid ul a{
+  padding: 178px;
+}
+.fundo{
+  width: 178px;
+  height: 178px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+}
+.fundo img{
+  margin: 40% auto;
+}
